@@ -26,14 +26,12 @@ jobs:
       - name: Build Site
         run: bundle exec jekyll build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-
   deploy:
-    environment:
-      name: github-pages
-      needs: build
-      runs-on: ubuntu-latest
-      steps:
-        - name: Deploy to GitHub Pages
-          uses: actions/deploy-pages@v4
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
