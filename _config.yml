@@ -1,2 +1,4 @@
 plugins:
   - jekyll-gfm-admonitions
+  - jekyll-optional-front-matter
+  
