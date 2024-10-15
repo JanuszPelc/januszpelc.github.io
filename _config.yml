@@ -1,4 +1,13 @@
+title: Janusz Pelc's page
+repository: JanuszPelc/januszpelc.github.io
+markdown: GFM
+
 plugins:
   - jekyll-gfm-admonitions
   - jekyll-optional-front-matter
-  
+
+exclude:
+  - node_modules/
+  - vendor/
+  - Gemfile.lock
+  - .jekyll-cache/
