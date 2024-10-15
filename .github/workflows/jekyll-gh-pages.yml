@@ -24,7 +24,7 @@ jobs:
           bundle install
 
       - name: Build Site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --verbose
 
   deploy:
     needs: build
