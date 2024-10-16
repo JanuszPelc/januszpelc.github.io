@@ -1,6 +1,6 @@
 ## JP Stereo Tool
 
-A native device for Bitwig Studio that fills a gap in its metering options..
+A native device for Bitwig Studio that fills a gap in its metering options.
 
 Primarily functioning as a stereo balance and phase correlation meter, it helps maintain well-balanced mixes and identify mono compatibility issues.
 
