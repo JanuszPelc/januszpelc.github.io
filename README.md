@@ -1,4 +1,4 @@
-## JP Stereo Tool 
+## JP Stereo Tool
 
 A native device for Bitwig Studio that fills a gap in its metering options.
 
